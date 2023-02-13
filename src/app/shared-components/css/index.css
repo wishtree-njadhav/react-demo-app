@@ -13,7 +13,7 @@
     display: flex;
     /* flex-direction: column; */
     justify-content: space-between;
-    align-items: center;
+    align-items: start;
     flex-wrap: wrap;
     height: 95vh;
 }
@@ -54,6 +54,10 @@
 }
 .img-fluid {
     max-width: 100%;
+    height: auto;
+}
+.img-ghr{
+    max-width: 20%;
     height: auto;
 }
 
